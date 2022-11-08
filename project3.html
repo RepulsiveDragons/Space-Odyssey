@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Space Odyssey</title>
+        <script src="https://pixijs.download/release/pixi.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+        <script src="javascript/game.js"></script>
+        <script src="javascript/classes.js"></script>
+        <link rel="stylesheet" href="css/gameStyles.css">
+
+    </head>
+
+    <body>
+        <h1>Space Odyssey</h1>
+
+        <div id="container">
+        
+        <div id="leftSide">
+            <div id="playerInfo">
+                <p>Score: <span id="score">0</span></p>
+                <p><img src="images/playerLife2_blue.png"> <span id="normal">x</span><span id="lives">5</span></p>
+            </div> 
+
+            <div id="powerups"> 
+                <p>This will display the powerups. Not yet implemented.</p>
+            </div>
+
+        </div>
+
+        <div id="stage"></div>
+
+        <div id="rightSide">
+            <div id="story">There are currently three difficulty scalings based on your score:<br>200 - higher spawns <br> 500 - enemies can move horizontally <br> 1000 - enemies shoot 3 lasers</b4></div>
+            <div id="controls">
+                <p>WASD - move <br> Space - shoot</p>
+            </div>
+        </div>
+
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'kenvector_future_thinregular';
+    src: url('../fonts/kenvector_future-webfont.woff2') format('woff2'),
+         url('../fonts/kenvector_future-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    color: white;
+}
+
+body{
+    font-family: 'kenvector_future_thinregular', sans-serif;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    color: white;
+}
+
+canvas
+{
+    display: block;
+    margin: auto;font-family: 'kenvector_future_thinregular', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+#playerInfo{
+    display: block;
+    float: left;
+    border: 2px solid red;
+    width: 150px;
+    height: 100px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#normal{
+    font-family: sans-serif;
+}
+
+#normal, #lives, #score{
+    font-size: 25px;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+#story{
+    width: 200px;
+    height: 300px;
+    border: 2px solid red;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+#powerups{
+    width: 150px;
+    height: 400px;
+    border: 2px solid red;
+    margin-top: 10rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#controls{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#powerups img
+{
+    width: 30%;
+}
+
+#powerups p
+{
+    font-family: sans-serif;
+    font-size: larger;
+    padding-top: 1rem;
+    padding-left: 3rem;
+}
+
+#bolt, #pill, #things{
+    font-family: 'kenvector_future_thinregular', sans-serif;
+    font-size: 25px;
+    
+}
+
+#playerInfo , #powerups, #story, #controls{
+    background: rgba(128, 128, 128, 0.253);
+}
+
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Space Odyssey</title>
+        <script src="https://pixijs.download/v6.1.3/pixi.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js" integrity="sha512-6+YN/9o9BWrk6wSfGxQGpt3EUK6XeHi6yeHV+TYD2GR0Sj/cggRpXr1BrAQf0as6XslxomMUxXp2vIl+fv0QRA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="javascript/game.js"></script>
+        <script src="javascript/classes.js"></script>
+        <script src="javascript/utilities.js"></script>
+        <link rel="stylesheet" href="css/gameStyles.css">
+
+    </head>
+
+    <body>
+        <h1> <a href="https://people.rit.edu/js9452/235/project3/about.html">Space Odyssey</a></h1>
+
+        <div id="container">
+        
+        <div id="leftSide">
+            <div id="playerInfo">
+                <p>Score: <span id="score">0</span></p>
+                <p><img src="images/playerLife2_blue.png" alt="Lives"> <span id="normal">x</span><span id="lives">5</span></p>
+            </div> 
+
+            <div id="powerups"> 
+                <p><img src="images/bolt_gold.png" alt="bolt powerup"> x<span id="bolt">0</span></p>
+                <p><img src="images/pill_blue.png" alt="pill powerup"> <span id="pill">0</span>s</p>
+                <p><img src="images/things_silver.png" alt="silver powerup"> <span id="things">0</span>s</p>
+
+            </div>
+
+        </div>
+
+        <div id="stage"></div>
+
+        <div id="rightSide">
+            <div id="story">You are a lone pilot endlessly flying through space. Avoid asteroids and enemy ships or shoot them down for points. Pick up powerups to increase your firepower. Survive for as long as you can.</div>
+            <div id="controls">
+                <p>WASD - move <br> Space - shoot</p>
+            </div>
+        </div>
+
+        </div>
+
+    </body>
+</html>
